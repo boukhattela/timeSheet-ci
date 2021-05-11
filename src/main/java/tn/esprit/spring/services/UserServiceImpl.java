@@ -32,7 +32,7 @@ public class UserServiceImpl implements IUserService {
 			l.info("In retrieveAllUsers() : ");
 			users = (List<User>) userRepository.findAll();  
 			for (User user : users) {
-				l.debug("user +++ : " + user);
+				//l.debug("user +++ : " + user);
 			} 
 			l.info("Out of retrieveAllUsers() : ");
 		}catch (Exception e) {
