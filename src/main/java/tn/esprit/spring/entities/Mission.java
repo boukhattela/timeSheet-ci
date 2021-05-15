@@ -14,6 +14,7 @@ import javax.persistence.OneToMany;
 public class Mission implements Serializable {
 
 	private static final long serialVersionUID = -5369734855993305723L;
+	// i'am a comment
 
 	// Auto Increment 
 	@Id
