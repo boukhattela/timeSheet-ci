@@ -14,9 +14,15 @@ import javax.persistence.OneToMany;
 public class Mission implements Serializable {
 
 	private static final long serialVersionUID = -5369734855993305723L;
+<<<<<<< HEAD
 
 	// Auto Increment
 	// ajouter un commentaire
+=======
+	// i'am a comment
+   //me too i'm a comment
+	// Auto Increment 
+>>>>>>> entreprise-managment
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
@@ -49,10 +55,10 @@ public class Mission implements Serializable {
 	public void setId(int id) {
 		this.id = id;
 	}
-
-	public String getName() {
-		return name;
-	}
+//
+//	public String getName() {
+//		return name;
+//	}
 
 	public void setName(String name) {
 		this.name = name;
