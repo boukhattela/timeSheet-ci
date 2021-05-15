@@ -15,7 +15,7 @@ public class Mission implements Serializable {
 
 	private static final long serialVersionUID = -5369734855993305723L;
 	// i'am a comment
-
+   //me too i'm a comment
 	// Auto Increment 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
